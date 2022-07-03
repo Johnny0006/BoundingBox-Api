@@ -55,7 +55,7 @@ public class BoundingBoxService {
         old.setName(updated.getName());
         old.setLeftUp(updated.getLeftUp());
         old.setRightDown(updated.getRightDown());
-        this.repository.save(updated);
+        this.repository.save(old);
     }
 
 
