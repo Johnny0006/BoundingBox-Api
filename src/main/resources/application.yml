@@ -1,0 +1,8 @@
+workspace:
+  image:
+    width: 1920
+    height: 1080
+  boundingBox:
+    minWidth: 10
+    minHeight: 10
+
